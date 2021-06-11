@@ -1,5 +1,16 @@
+html {
+    background-color: black;
+}
+
 body {
     margin: 0%;
+    opacity: 1;
+    transition: 1s opacity;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
 }
 
 h1 {
@@ -8,6 +19,7 @@ h1 {
     text-align: center;
     margin-top: 3%;
     color: black;
+    font-size: 2.5vw;
 }
 
 h1:hover {

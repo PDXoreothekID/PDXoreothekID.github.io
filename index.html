@@ -9,6 +9,13 @@
     </head>
 
     <body class="Background">
+
+        <script>
+            document.body.classList.add('fade-out');
+            window.addEventListener('DOMContentLoaded', () => {
+                document.body.classList.remove('fade-out');
+            });
+        </script>
     
         <div class="navbar">
             <a class="active" href="#home">Home</a>
