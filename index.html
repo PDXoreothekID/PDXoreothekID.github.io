@@ -24,7 +24,7 @@
                 Your browser does not  support HTML5 video.
             </video>
         </div>
-
+        <!--video text-->
         <div class="vid_txt">
             <h1 class="yellow-txt">Marquez Randol's Portfolio</h1>
             <strong>
@@ -46,7 +46,7 @@
                 <div id="Slideshow_Container">
                     <!--Slide 1 of 6-->
                     <div class="mySlides fade">
-                        <img class="Slideshow_Images" src="" alt="Picture of me (Marquez Randol)">
+                        <img class="Slideshow_Images" src="./img/Square Personal Photo.png" alt="Picture of me (Marquez Randol)">
                         <div class="text">I'm available to assist you on your project!</div>
                     </div>
                     <!--Slide 2 of 6-->
@@ -74,13 +74,14 @@
                         <img class="Slideshow_Images" src="./img/code-javascript-text-editor-black-34208289.jpg" alt="Comoputer showing JavaScript in code editor">
                         <div  class="text"><a class="yellow-text" onclick="openForm()" href="#Contact">Contact me now!</a></div></div>
                     </div>
-
+                    <!--previoius and next buttons-->
                     <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="Next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
 
                 <br>
 
+                <!--slideshow dots-->
                 <div style="text-align: center">
                     <span class="dot" onclick="currentSlide(1)"></span>
                     <span class="dot" onclick="currentSlide(2)"></span>
@@ -132,17 +133,17 @@
             <button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
             <div class="form-popup" id="myForm">
                 <form action="https://formspree.io/pdx.oreothekid@outlook.com" method="POST" class="form-container">
-                    <h1>Contact</h1>
-                    <label for="name"><b>Name</b></label>
+                    <h1 class="yellow-txt-no-pad">Contact</h1>
+                    <label for="name" class="yellow-txt-no-pad"><b>Name</b></label>
                         <input type="text" placeholder="Type your name here" name="name" required>
-                    <label for="phone"><b>Phone</b></label>
+                    <label for="phone" class="yellow-txt-no-pad"><b>Phone</b></label>
                         <input type="text" placeholder="Type your phone number here" name="phone">
-                    <label for="email"><b>Email</b></label>
+                    <label for="email" class="yellow-txt-no-pad"><b>Email</b></label>
                         <input type="text" placeholder="Type your email address here" name="email" required>
-                    <label for="message"><b>Message</b></label>
+                    <label for="message" class="yellow-txt-no-pad"><b>Message</b></label>
                         <input type="text" placeholder="Type your message here" name="message">
 
-                    <button type="submit" class="btn">SUBMIT</button>
+                    <button type="submit" class="btn submit">SUBMIT</button>
                     <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
                 </form>
             </div>
@@ -152,5 +153,6 @@
             <p class="center">Email: <a href="mailto:pdx.oreothekid@outlook.com">pdx.oreothekid@outlook.com</a></p>
             <p class="center">Phone Number: (971) 217-0222</p>
         </footer>
+        <script src="./js/portfolio.js"></script>
     </body>
 </html>
