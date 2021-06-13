@@ -37,6 +37,10 @@ h1:hover {
     padding-top: 10vh;
 }
 
+.yellow-txt-no-pad {
+    color: #e1ad01;
+}
+
 p {
     font-family: Perpetua, Rockwell Extra Bold;
     text-align: justify;
@@ -256,7 +260,7 @@ footer {
 }
 
 .active, .dot:hover {
-    background-color: black;
+    background-color: #e1ad01;
 }
 
 .fade {
@@ -284,7 +288,7 @@ footer {
     float: left;
     width: 50%;
     padding: 1.6%;
-    height: 450px;
+    height: 400px;
     background-color: #f2f2f2;
 }
 
@@ -298,14 +302,9 @@ footer {
     float: left;
     width: 50%;
     padding: 1.6%;
-    height: 450px;
-    background-color: #131315;
+    height: 400px;
+    background-color: black;
 }
-
-/* .column_tall {
-    padding-top: 3.5%;
-    height: 450px;
-} */
 
 .row:after {
     content: "";
@@ -318,7 +317,8 @@ footer {
     bottom: 1.75vw;
     right: 1.75vw;
     width: 25vw;
-    background-color: white;
+    background-color: #e1ad01;
+    border-color: black;
     color: black;
     cursor: pointer;
     -webkit-animation: movePopup 5s;
@@ -336,7 +336,7 @@ footer {
 }
 
 .form-popup {
-    border: 3px solid #f0f1f0;
+    border: 3px solid white;
     z-index: 8;
     display: none;
     position: fixed;
@@ -347,7 +347,7 @@ footer {
 .form-container {
     max-width: 49vw;
     padding: 1vw;
-    background-color: white;
+    background-color: black;
 }
 
 
@@ -376,7 +376,7 @@ button:hover, .form-container .btn:hover {
     background-color: black;
     transition-duration: 1s;
     -webkit-transition-duration: 1s;
-    border-color: silver;
+    border-color: black;
 }
 
 /*Submit button*/
@@ -385,6 +385,12 @@ button:hover, .form-container .btn:hover {
     color: black;
     border-color: black;
     margin-bottom: 1vh;
+}
+
+.form-container .submit:hover {
+    background-color: rgb(102, 185, 51);
+    color: balck;
+    border-color: black;
 }
 
 .form-container .cancel {
@@ -400,42 +406,3 @@ button:hover, .form-container .btn:hover {
     -webkit-transition-duration: 1s;
     border-color: black;
 }
-
-
-
-
-
-
-
-
-/* input[type=text]:hover {
-    box-shadow: 0 0 5px black inset   ;
-}
-
-input[type=submit] {
-    background-color: black;
-    color: white;
-    font-weight: bold;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-input[type=submit]:hover {
-    background-color: white;
-    color: black;
-    transform: scale(1.5);
-    transition: transform 1.5s;
-}
-
-form {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-} */
