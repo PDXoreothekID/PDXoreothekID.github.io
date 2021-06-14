@@ -144,8 +144,8 @@ footer {
 }
 
 .navbar a:hover {
-    background-color: #f4f4f4;
-    color: black;
+    background-color: #e1ad01;
+    color: white;
     font-weight: bold;
     cursor: pointer;
 }
